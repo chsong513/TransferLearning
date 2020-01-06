@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7661c76-1de4-49a7-97e0-f24e1e95a61f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/transfer/nn/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer/traditional/JDA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer/traditional/JDA/jda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer/nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer/nn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer/nn/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer/nn/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer/traditional/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/transfer/traditional/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +20,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TransferLearning$utils.coverage" NAME="utils Coverage Results" MODIFIED="1577454860559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transfer/nn" />
+    <SUITE FILE_PATH="coverage/TransferLearning$utils.coverage" NAME="utils Coverage Results" MODIFIED="1578310184285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transfer/nn" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jda.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/transfer/traditional/JDA/jda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transfer/nn/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="e#42#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="840">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -44,7 +57,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/transfer/traditional/JDA/__init__.py" />
+        <option value="$PROJECT_DIR$/transfer/traditional/__init__.py" />
+        <option value="$PROJECT_DIR$/transfer/nn/__init__.py" />
+        <option value="$PROJECT_DIR$/transfer/__init__.py" />
+        <option value="$PROJECT_DIR$/transfer/test.py" />
         <option value="$PROJECT_DIR$/transfer/nn/utils.py" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/transfer/traditional/JDA/jda.py" />
       </list>
     </option>
   </component>
@@ -58,8 +78,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="365" />
+    <option name="x" value="180" />
+    <option name="y" value="123" />
     <option name="width" value="1347" />
     <option name="height" value="724" />
   </component>
@@ -69,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,12 +105,6 @@
               <item name="TransferLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="TransferLearning" type="462c0819:PsiDirectoryNode" />
               <item name="transfer" type="462c0819:PsiDirectoryNode" />
-              <item name="deep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TransferLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransferLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="transfer" type="462c0819:PsiDirectoryNode" />
               <item name="nn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -100,17 +113,25 @@
               <item name="transfer" type="462c0819:PsiDirectoryNode" />
               <item name="traditional" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TransferLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TransferLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="transfer" type="462c0819:PsiDirectoryNode" />
+              <item name="traditional" type="462c0819:PsiDirectoryNode" />
+              <item name="JDA" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,36 +189,71 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3314856" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20693333" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" visible="true" weight="0.20842572" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4767184" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3314856" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="SOQL Query" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Log Viewer" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/transfer/traditional/JDA/jda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/nn/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/nn/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-2036615904/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -205,13 +261,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/torch/nn/utils/rnn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/torch/nn/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/traditional/JDA/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/traditional/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/torch/nn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/nn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="112">
+            <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transfer/nn/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/traditional/JDA/jda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

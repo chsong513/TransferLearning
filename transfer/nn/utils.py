@@ -45,3 +45,4 @@ def kernel(kernel_type, X, Y=None, gamma=1.0):
     else:
         raise Exception("Invalid kernel type!", kernel_type)
     return K
+	
