@@ -65,7 +65,7 @@ class JointDistributionAdaptation(object):
         M0 = e0.dot(e0.T)
 
         for i in range(self.iterations):
-            print(' iteration:', i+1, ' ', end='')
+            print(' iteration:', i+1, ' ')
             N = 0
             if self.Y_pseudo is not None:
                 C = len(np.unique(self.source_Y))
@@ -95,5 +95,5 @@ class JointDistributionAdaptation(object):
             self.classifier.fit(self.X_source_JDA.T, self.source_Y.flatten())
             Y_pseudo = self.classifier.predict(self.X_target_JDA.T)
             pseudo_acc = sklearn.metrics.accuracy_score(self.target_Y.flatten(), Y_pseudo)
-            print('acc:', pseudo_acc)
+            print(' acc:', pseudo_acc)
         return self.X_source_JDA, self.X_target_JDA
