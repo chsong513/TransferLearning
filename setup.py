@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="transferlearning",
-    version="0.0.1",
+    version="0.0.3",
     author="Song Cheng",
     author_email="chsong513@gmail.com",
     description="The integration of some popular transferlearning learning methods",
