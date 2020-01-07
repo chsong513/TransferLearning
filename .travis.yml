@@ -10,4 +10,4 @@ install:
     - pip install sklearn
 
 script:
-  - python test_jda.py
+  - pip install transferlearning
