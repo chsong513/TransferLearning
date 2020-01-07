@@ -8,7 +8,6 @@ install:
     - pip install numpy
     - pip install scipy
     - pip install sklearn
-    - pip install math
 
 script:
     test.py
