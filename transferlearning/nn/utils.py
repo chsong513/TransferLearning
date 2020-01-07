@@ -3,7 +3,6 @@
 # 2019/12/27 @ chengsong
 
 import numpy as np
-import math
 
 def kernel(kernel_type, X, Y=None, gamma=1.0):
     """
