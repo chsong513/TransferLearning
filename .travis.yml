@@ -10,4 +10,4 @@ install:
     - pip install sklearn
 
 script:
-    test.py
+  - python test.py
