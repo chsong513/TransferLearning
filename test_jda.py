@@ -30,7 +30,7 @@ def main():
                 baseline_acc = sklearn.metrics.accuracy_score(target['Y'].flatten(), Y_pseudo_target)
                 print('    acc of baseline 1-NN:', baseline_acc)
 
-                jda = JointDistributionAdaptation(source['X'], source['Y'], target['X'], target['Y'],
+                jda = tl.JointDistributionAdaptation(source['X'], source['Y'], target['X'], target['Y'],
                                                   classifier=KNeighborsClassifier(n_neighbors=1), iterations=1,
                                                   Y_pseudo=Y_pseudo_target)
                 X_JDA_source, X_JDA_target = jda.adapt()
