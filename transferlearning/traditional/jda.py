@@ -88,7 +88,7 @@ class JointDistributionAdaptation(object):
                 np.linalg.multi_dot([K, M, K.T]) + self.lamda * np.eye(n_eye)))
             ind = np.argsort(eig_vals)
             A = eig_vecs[:, ind[:100]]
-            Z = A.T.dot(K)
+            Z = A.T.dot(K).astype(float)
             Z /= np.linalg.norm(Z, axis=0)
 
             self.X_source_JDA, self.X_target_JDA = Z[:,:ns], Z[:,ns:]
