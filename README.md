@@ -15,7 +15,16 @@ The documents will be released later.
 ## Quick Start
 ### Setup
 ```
-pip install --upgrade lransferlearning
+pip install --upgrade transferlearning
+```
+If you meet some thing wrong like "ERROR: Could not install packages due to an EnvironmentError: HTTPSConnectionPool]", you can create a folder "C:\Users\Administrator\pip" and creat a file "pip.ini" under this folder, then, copy the next content into the file. Finally, try to install this package again.
+
+```
+[global]
+
+trusted-host=mirrors.aliyun.com
+
+index-url=http://mirrors.aliyun.com/pypi/simple/
 ```
 ### Utilizing
 ```python
